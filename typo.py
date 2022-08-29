@@ -2,6 +2,10 @@
 # version 0.1
 import random
 
+TOP_ROW = "qwertyuiop"
+MIDDLE_ROW = "asdfghjkl"
+BOTTOM_ROW = "zxcvbnm"
+
 def dropLetter(targetString):
     # drop a letter from the string
     x = len(targetString)
@@ -32,8 +36,6 @@ def alterCaps(targetString):
         targetString = targetString.swapcase()
     return targetString
 
-
-    return targetString
 
 def insertLetter(targetString):
     return targetString
